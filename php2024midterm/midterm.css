@@ -1,0 +1,97 @@
+body{
+    height: 100%;
+    background-color: rgb(46, 158, 121);
+}
+
+.main-header{
+    background-image: linear-gradient(0deg, #000000, #0000007e);
+    height: 110px;
+}
+
+.main-header .logo{
+    width: 80px;
+}   
+
+
+.main-header .main-nav{
+    margin: auto;
+}
+
+.main-header .main-nav a{
+    font-size: 20   px;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px 1em;
+    position: relative;
+}
+
+.main-header .main-nav a::after{
+    content: '';    
+    position: absolute;
+    left:  50%;  
+    right: 50%;
+    height: 0;
+    bottom: -5px;
+    border-bottom: 1px solid white;
+    transition: .3s;
+
+}
+    
+.main-header .main-nav a:hover:after{
+    left: 0;
+    right: 0;
+}
+
+.main-header .logo img{
+    width: 100%;
+    vertical-align: top;
+}
+
+.main-header .container{
+    display: flex;  
+    align-items: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+.main .content h1{
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.main{
+    background-size: cover;
+    height: auto;
+}
+
+.content .col-7{
+    font-size: 25px;
+    color:#ffffff;
+}
+
+.row{
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    background-color: rgba(0, 0, 0, 0.801); 
+    color: rgb(255, 255, 255);
+}       
+
+.content a{
+    font-size: 20px;
+    color: white;
+}
+
+.label{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.submit{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
